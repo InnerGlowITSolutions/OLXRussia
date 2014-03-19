@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EE92A118D966D80089008F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EE92A018D966D80089008F /* Foundation.framework */; };
+		04EE92A318D966D80089008F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EE92A218D966D80089008F /* CoreGraphics.framework */; };
+		04EE92A518D966D80089008F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EE92A418D966D80089008F /* UIKit.framework */; };
+		04EE92AB18D966D80089008F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04EE92A918D966D80089008F /* InfoPlist.strings */; };
+		04EE92AD18D966D80089008F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE92AC18D966D80089008F /* main.m */; };
+		04EE92B118D966D80089008F /* HomeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE92B018D966D80089008F /* HomeAppDelegate.m */; };
+		04EE92B418D966D80089008F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EE92B218D966D80089008F /* Main.storyboard */; };
+		04EE92B718D966D80089008F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE92B618D966D80089008F /* HomeViewController.m */; };
+		04EE92B918D966D80089008F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EE92B818D966D80089008F /* Images.xcassets */; };
+		04EE92C018D966D80089008F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EE92BF18D966D80089008F /* XCTest.framework */; };
+		04EE92C118D966D80089008F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EE92A018D966D80089008F /* Foundation.framework */; };
+		04EE92C218D966D80089008F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EE92A418D966D80089008F /* UIKit.framework */; };
+		04EE92CA18D966D80089008F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04EE92C818D966D80089008F /* InfoPlist.strings */; };
+		04EE92CC18D966D80089008F /* OLXRussiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE92CB18D966D80089008F /* OLXRussiaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04EE92C318D966D80089008F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EE929518D966D80089008F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EE929C18D966D80089008F;
+			remoteInfo = OLXRussia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EE929D18D966D80089008F /* OLXRussia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OLXRussia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EE92A018D966D80089008F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04EE92A218D966D80089008F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04EE92A418D966D80089008F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04EE92A818D966D80089008F /* OLXRussia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OLXRussia-Info.plist"; sourceTree = "<group>"; };
+		04EE92AA18D966D80089008F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04EE92AC18D966D80089008F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04EE92AE18D966D80089008F /* OLXRussia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OLXRussia-Prefix.pch"; sourceTree = "<group>"; };
+		04EE92AF18D966D80089008F /* HomeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeAppDelegate.h; sourceTree = "<group>"; };
+		04EE92B018D966D80089008F /* HomeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeAppDelegate.m; sourceTree = "<group>"; };
+		04EE92B318D966D80089008F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04EE92B518D966D80089008F /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		04EE92B618D966D80089008F /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		04EE92B818D966D80089008F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04EE92BE18D966D80089008F /* OLXRussiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OLXRussiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EE92BF18D966D80089008F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04EE92C718D966D80089008F /* OLXRussiaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OLXRussiaTests-Info.plist"; sourceTree = "<group>"; };
+		04EE92C918D966D80089008F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04EE92CB18D966D80089008F /* OLXRussiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OLXRussiaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EE929A18D966D80089008F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EE92A318D966D80089008F /* CoreGraphics.framework in Frameworks */,
+				04EE92A518D966D80089008F /* UIKit.framework in Frameworks */,
+				04EE92A118D966D80089008F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EE92BB18D966D80089008F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EE92C018D966D80089008F /* XCTest.framework in Frameworks */,
+				04EE92C218D966D80089008F /* UIKit.framework in Frameworks */,
+				04EE92C118D966D80089008F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EE929418D966D80089008F = {
+			isa = PBXGroup;
+			children = (
+				04EE92A618D966D80089008F /* OLXRussia */,
+				04EE92C518D966D80089008F /* OLXRussiaTests */,
+				04EE929F18D966D80089008F /* Frameworks */,
+				04EE929E18D966D80089008F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EE929E18D966D80089008F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EE929D18D966D80089008F /* OLXRussia.app */,
+				04EE92BE18D966D80089008F /* OLXRussiaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EE929F18D966D80089008F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04EE92A018D966D80089008F /* Foundation.framework */,
+				04EE92A218D966D80089008F /* CoreGraphics.framework */,
+				04EE92A418D966D80089008F /* UIKit.framework */,
+				04EE92BF18D966D80089008F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04EE92A618D966D80089008F /* OLXRussia */ = {
+			isa = PBXGroup;
+			children = (
+				04EE92AF18D966D80089008F /* HomeAppDelegate.h */,
+				04EE92B018D966D80089008F /* HomeAppDelegate.m */,
+				04EE92B218D966D80089008F /* Main.storyboard */,
+				04EE92B518D966D80089008F /* HomeViewController.h */,
+				04EE92B618D966D80089008F /* HomeViewController.m */,
+				04EE92B818D966D80089008F /* Images.xcassets */,
+				04EE92A718D966D80089008F /* Supporting Files */,
+			);
+			path = OLXRussia;
+			sourceTree = "<group>";
+		};
+		04EE92A718D966D80089008F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EE92A818D966D80089008F /* OLXRussia-Info.plist */,
+				04EE92A918D966D80089008F /* InfoPlist.strings */,
+				04EE92AC18D966D80089008F /* main.m */,
+				04EE92AE18D966D80089008F /* OLXRussia-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04EE92C518D966D80089008F /* OLXRussiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				04EE92CB18D966D80089008F /* OLXRussiaTests.m */,
+				04EE92C618D966D80089008F /* Supporting Files */,
+			);
+			path = OLXRussiaTests;
+			sourceTree = "<group>";
+		};
+		04EE92C618D966D80089008F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EE92C718D966D80089008F /* OLXRussiaTests-Info.plist */,
+				04EE92C818D966D80089008F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EE929C18D966D80089008F /* OLXRussia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EE92CF18D966D80089008F /* Build configuration list for PBXNativeTarget "OLXRussia" */;
+			buildPhases = (
+				04EE929918D966D80089008F /* Sources */,
+				04EE929A18D966D80089008F /* Frameworks */,
+				04EE929B18D966D80089008F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OLXRussia;
+			productName = OLXRussia;
+			productReference = 04EE929D18D966D80089008F /* OLXRussia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04EE92BD18D966D80089008F /* OLXRussiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EE92D218D966D80089008F /* Build configuration list for PBXNativeTarget "OLXRussiaTests" */;
+			buildPhases = (
+				04EE92BA18D966D80089008F /* Sources */,
+				04EE92BB18D966D80089008F /* Frameworks */,
+				04EE92BC18D966D80089008F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EE92C418D966D80089008F /* PBXTargetDependency */,
+			);
+			name = OLXRussiaTests;
+			productName = OLXRussiaTests;
+			productReference = 04EE92BE18D966D80089008F /* OLXRussiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EE929518D966D80089008F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Home;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Rejo Joseph";
+				TargetAttributes = {
+					04EE92BD18D966D80089008F = {
+						TestTargetID = 04EE929C18D966D80089008F;
+					};
+				};
+			};
+			buildConfigurationList = 04EE929818D966D80089008F /* Build configuration list for PBXProject "OLXRussia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EE929418D966D80089008F;
+			productRefGroup = 04EE929E18D966D80089008F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EE929C18D966D80089008F /* OLXRussia */,
+				04EE92BD18D966D80089008F /* OLXRussiaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EE929B18D966D80089008F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EE92B918D966D80089008F /* Images.xcassets in Resources */,
+				04EE92AB18D966D80089008F /* InfoPlist.strings in Resources */,
+				04EE92B418D966D80089008F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EE92BC18D966D80089008F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EE92CA18D966D80089008F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EE929918D966D80089008F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EE92AD18D966D80089008F /* main.m in Sources */,
+				04EE92B118D966D80089008F /* HomeAppDelegate.m in Sources */,
+				04EE92B718D966D80089008F /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EE92BA18D966D80089008F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EE92CC18D966D80089008F /* OLXRussiaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EE92C418D966D80089008F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EE929C18D966D80089008F /* OLXRussia */;
+			targetProxy = 04EE92C318D966D80089008F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04EE92A918D966D80089008F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EE92AA18D966D80089008F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04EE92B218D966D80089008F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EE92B318D966D80089008F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04EE92C818D966D80089008F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EE92C918D966D80089008F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EE92CD18D966D80089008F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04EE92CE18D966D80089008F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EE92D018D966D80089008F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OLXRussia/OLXRussia-Prefix.pch";
+				INFOPLIST_FILE = "OLXRussia/OLXRussia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04EE92D118D966D80089008F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OLXRussia/OLXRussia-Prefix.pch";
+				INFOPLIST_FILE = "OLXRussia/OLXRussia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04EE92D318D966D80089008F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OLXRussia.app/OLXRussia";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OLXRussia/OLXRussia-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OLXRussiaTests/OLXRussiaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04EE92D418D966D80089008F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OLXRussia.app/OLXRussia";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OLXRussia/OLXRussia-Prefix.pch";
+				INFOPLIST_FILE = "OLXRussiaTests/OLXRussiaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EE929818D966D80089008F /* Build configuration list for PBXProject "OLXRussia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EE92CD18D966D80089008F /* Debug */,
+				04EE92CE18D966D80089008F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EE92CF18D966D80089008F /* Build configuration list for PBXNativeTarget "OLXRussia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EE92D018D966D80089008F /* Debug */,
+				04EE92D118D966D80089008F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04EE92D218D966D80089008F /* Build configuration list for PBXNativeTarget "OLXRussiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EE92D318D966D80089008F /* Debug */,
+				04EE92D418D966D80089008F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EE929518D966D80089008F /* Project object */;
+}
