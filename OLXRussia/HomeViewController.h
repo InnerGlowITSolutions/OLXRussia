@@ -10,4 +10,15 @@
 
 @interface HomeViewController : UIViewController
 
+
+@property (strong, nonatomic) IBOutlet UIButton *revealButton;
+@property (strong, nonatomic) IBOutlet UIImageView *shuffleImageView;
+@property (strong, nonatomic) IBOutlet UICollectionView *menuGridView;
+
+- (IBAction)settingsClick:(id)sender;
+
+-(void)receivedMainMenuResponse:(NSMutableData *)data;
+
 @end
+
+

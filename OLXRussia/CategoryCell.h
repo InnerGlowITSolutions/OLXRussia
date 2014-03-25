@@ -1,5 +1,5 @@
 //
-//  HomeAppDelegate.h
+//  CategoryCell.h
 //  OLXRussia
 //
 //  Created by Rejo Joseph on 19/03/14.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeAppDelegate : UIResponder <UIApplicationDelegate>
+@interface CategoryCell : UITableViewCell
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) IBOutlet UILabel *categoryNameLabel;
 @end
